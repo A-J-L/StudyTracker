@@ -13,8 +13,24 @@
     <div class="buttons">
       <button id="startBtn">Start</button>
       <button id="stopBtn">Stop</button>
-    </div>
+    </div
+      
     <p>Total Study Time: <span id="totalTime">00:00:00</span></p>
+
+    <h1>Study Timer</h1>
+<div id="timer">00:00:00</div>
+<div class="buttons">
+  <button id="startBtn">Start</button>
+  <button id="stopBtn">Stop</button>
+</div>
+
+<p>Total Study Time: <span id="totalTime">00:00:00</span></p>
+
+<label for="goalInput">Daily Goal (minutes):</label>
+<input type="number" id="goalInput" min="1" value="120" />
+<progress id="progressBar" value="0" max="100"></progress>
+<p>Today's Study Time: <span id="todayTime">00:00:00</span></p>
+
   </div>
   <script src="script.js"></script>
 </body>
